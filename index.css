@@ -10,7 +10,7 @@
 
 .main
 {
-    background-color:#f1f2f3;
+    background-color:#fff;
 }
 .container
 {
@@ -30,19 +30,19 @@
 }
 .box1
 {
-   padding: 25px;
+   padding: 25px ;
    background-color:#e28525 ;
    border-top-left-radius: 10px;
    border-bottom-left-radius: 10px;
 }
 .box2
 {
-   padding: 25px;
+   padding: 25px  30px;
    background-color:#016972 ;
 }
 .box3
 {
-   padding: 25px;
+   padding: 25px 30px;
    margin-top: 0px;
    background-color:#00403f ;
    border-top-right-radius: 10px;
@@ -73,6 +73,29 @@ button
     height: 50px;
     width: 150px;
     border-radius: 50px;
+    margin-top: 70px;
    
 
+}
+#btn1
+{
+    color: #e28525;
+    font-weight: bold;
+}
+#btn2
+{
+    color: #016972;
+    font-weight: bold;
+}
+#btn3
+{
+    color: #00403f;
+    font-weight: bold;
+}
+
+img{
+    height: 30px;
+}
+#SE{
+    padding-left: 0px;
 }
