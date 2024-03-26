@@ -93,9 +93,20 @@ button
     font-weight: bold;
 }
 
+.dot
+{
+    padding: 5px;
+    border-radius: 50px;
+    background-color: #b46b1e;
+    height: 25px;
+    width: 25px;
+    position: relative;
+}
 img{
     height: 30px;
+    position: absolute;
+    top: -30;
 }
 #SE{
-    padding-left: 0px;
+    
 }
