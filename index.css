@@ -111,6 +111,31 @@ img{
     left:-1rem;
     /* background-color: yellow; */
 }
-#SE{
-    
+.pointer {cursor: pointer;}
+
+
+/* for mobile veiw */
+@media(max-width:600px)
+{
+    .container{
+        padding: 0px;
+        margin: 0px;
+    }
+    .container1{
+        display: block;
+    }
+    .main
+    {
+        padding:30px 0px
+    }
+    .mob-main
+    {
+            padding: 30px 20px;
+            background-color: #fff;
+            box-shadow: 5px 3px 3px #eee;
+    }
+    .box1 ,.box2,.box3
+    {
+           padding: 30px 30px;
+    }
 }
